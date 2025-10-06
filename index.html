@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<title> Estructura HTML con secciones</title>
+<style>
+*{
+ margin: 0;
+ padding: 0:
+ Box-sizing: borden-box;
+ }
+
+ body {
+ Font-family: Arial, sans-serif;
+ Line-height: 1,6;
+ }
+ header {
+ background: #800000;
+ color: #fff;
+ padding: 20px;
+ }
+ section {
+ padding: 40px;
+ Min-height: 200px;
+ }
+ #inicio {
+ background: #B22222
+ }
+ #servicios {
+ background: #800000
+ }
+ #contacto {
+ background: #B22222
+ }
+
+
+
+
+
+</style>
+</head>
+<body>
+<header>
+<h1>Mi página Web</h1>
+
+<nav>
+   <ul>
+      <li><href="#inicio>Inicio</li>
+      <li><href="#Servicios>Servicios</li>
+      <li><href="#Contacto>Contacto</li>
+   </ul>
+<nav>
+<header>
+
+   <img src="imagen.jpg" class="card-img-top" alt="prueba de clase">
+
+<section id="inicio">
+<h2>Inicio</h2>
+<p>Bienvenido a mi página web bro</p>
+<button type="button" class="btn btn-primary btn-sm">mirar más</button>
+</section>
+
+<section id="servicios">
+<h2>Servicios</h2>
+<p>Ofrecemos distintos servicios adaptados a ti.
+   <div class="card" style="width: 18rem;">
+  <img src="https://www.agilitypr.com/wp-content/uploads/2018/10/publicity-1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">esto es una prueba de bootstrap</p>
+  </div>
+</div>
+</section>
+
+<section id="contacto">
+<h2>contacto</h2>
+<p>Puedes ponerte en contacto conmigo a través del siguiente correo: correo@gmail.com</p>
+<form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-4">
+    <label for="validationCustom01" class="form-label">Primer nombre</label>
+    <input type="text" class="form-control" id="validationCustom01" value="..." required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Segundo nombre</label>
+    <input type="text" class="form-control" id="validationCustom02" value="..." required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustomUsername" class="form-label">Correo</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend">@</span>
+      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+      <div class="invalid-feedback">
+        Please choose a username.
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationCustom03" class="form-label">Ciudad</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
+    <div class="invalid-feedback">
+      Please provide a valid city.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom04" class="form-label">Estado</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">Buscar...</option>
+      <option>...</option>
+    </select>
+    <div class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom05" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="validationCustom05" required>
+    <div class="invalid-feedback">
+      Please provide a valid zip.
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        acepta las condiciones
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Entrar</button>
+  </div>
+</form>
+</section>
+
+ <img src="https://www.agilitypr.com/wp-content/uploads/2018/10/publicity-1.jpg" class="card-img-top" alt="prueba de clase">
+
+<footer>
+<p> 2025 Brayan </p>
+</footer>
+</body>
+</html>
